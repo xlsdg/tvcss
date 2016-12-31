@@ -25,11 +25,12 @@ $ npm install --save tvcss
   </html>
 ```
 
-or you can
+OR
 
 ``` html
   <meta name="tvcss" content="initial-dpr=1.0,min-width=320,max-width=1920,design-width=1920"/>
 ```
+
 
 ## Config
 
@@ -38,6 +39,7 @@ or you can
 * `max-width` **[Optional]**
 * `design-width` **[Required]**
 
+
 ## Properties
 
 * `dpr`
@@ -45,12 +47,14 @@ or you can
 * `maxWidth`
 * `designWidth`
 
+
 ## Methods
 
 * `px2rem`
 * `rem2px`
 * `resize`
 * `update` **[Delay resize]**
+
 
 # License
 
