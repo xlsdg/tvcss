@@ -1,7 +1,11 @@
 
 const tvcss = window.tvcss || {};
 
-if (!window.tvcss) {
+(function() {
+  if (window.tvcss) {
+    return;
+  }
+
   tvcss.init = function() {
     let dpr = window.devicePixelRatio || 1;
     let minWidth = 0;
@@ -132,6 +136,7 @@ if (!window.tvcss) {
   tvcss.tid = window.setTimeout(tvcss.resize, 333);
 
   window.tvcss = tvcss;
-}
+
+})();
 
 export default tvcss;
