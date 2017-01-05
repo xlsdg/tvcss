@@ -29,6 +29,7 @@ OR
 
 ``` html
   <meta name="tvcss" content="initial-dpr=1.0,min-width=320,max-width=1920,design-width=1920"/>
+  <script src="//unpkg.com/tvcss/lib/tvcss.min.js"></script>
 ```
 
 

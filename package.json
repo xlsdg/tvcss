@@ -2,7 +2,7 @@
   "name": "tvcss",
   "version": "0.1.2",
   "description": "A flexible layout tool for television",
-  "main": "lib/tvcss.js",
+  "main": "lib/tvcss.min.js",
   "files": [
     "lib",
     "src"
